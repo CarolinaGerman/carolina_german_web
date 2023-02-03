@@ -1,0 +1,148 @@
+.cuerpo header h1 img {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+header {
+background-color: lavenderblush;
+}
+
+h1 {
+    color: rgb(138, 132, 132);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    text-align: center;
+  }
+
+.foto {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+form ul li {
+  list-style: none;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.datoscontacto p {
+  color: rgb(138, 132, 132);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.mapa {
+  color: rgb(138, 132, 132);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+h2 {
+text-align: center;
+color:rgb(138, 132, 132);
+}
+
+.navar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.navar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.menu li a {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border: 2px solid rgb(221, 159, 211);
+  border-radius: 50%;
+  transition: all 0.5s;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(221, 159, 211);
+  transition: all 0.5s;
+}
+
+.menu li a:hover:before {
+  opacity: 1;
+  transform: scale(0.8);
+}
+
+.menu li a:hover {
+  color:rgb(180, 108, 168);
+}
+
+.menu li:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 0%;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: -1;
+  transition: all 0.5s;
+  opacity: 0;
+  border: 2px dashed rgb(221, 176, 213)
+}
+
+.habilidades ul li  {
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(138, 132, 132);
+  text-align: center;
+  align-content: center;
+}
+
+.pie p {
+  display: inline-block;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: rgb(122, 118, 118);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+  background-color: lavenderblush;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  }
+
+
